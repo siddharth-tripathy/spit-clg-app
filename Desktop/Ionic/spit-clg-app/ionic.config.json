@@ -1,0 +1,7 @@
+{
+  "name": "SPIT Clg App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

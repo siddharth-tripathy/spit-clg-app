@@ -1,0 +1,167 @@
+ion-content{
+    background-color: white;
+}
+
+
+#wlc1{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-family: 'Calibri Light';
+}
+
+#intro3{
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.txt{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 10px;
+}
+
+
+#clg_logo{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+#sociol_logo{
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0 10px;
+}
+
+#first{
+    height: 80vh;
+    //background-image: url('https://www.spit.ac.in/wp-content/uploads/2009/11/Entrance.jpg');
+    background: url('https://www.spit.ac.in/wp-content/uploads/2009/11/Entrance.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -200px;
+}
+
+#first_i{
+    height: 80vh;
+    width: 100%;
+    margin-left: 200px;
+    background-color: rgba(0, 0, 0, 0.763);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#first_i span{
+    margin: 0px 30px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#menu{
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    margin: 30px 20px;
+    // background-color: rgba(240, 248, 255, 0.499);
+    border-radius: 100px;
+}
+
+#dp{
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+#menu_items{
+    
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.763);
+    color: black;
+}
+
+#menu_items button{
+    margin: 20px 10px;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#menu_div{
+    width: 70%;
+    height: 100vh;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    background-color: white;
+}
+#menu_div span{
+    margin: 5px;
+}
+
+#academics{
+    margin-top: 70px;
+}
+
+#clg_logo{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+#courses{
+    margin: 10px;
+    color: black;
+}
+
+#ind_c{
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+
+
+.scrolling-wrapper {
+    margin: 10px;
+    padding: 2px;
+    border-radius: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border: 1px solid white;
+    .card {
+      display: inline-block;
+      border-radius: 20px;
+    }
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+
+#scrolle{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+    // border: 1px solid white;
+}
+
+.scrolling-wrapper img{
+    margin: 10px;
+}

@@ -1,0 +1,125 @@
+#menu{
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    margin: 30px 20px;
+    background-color: rgba(240, 248, 255, 0.499);
+    border-radius: 100px;
+}
+
+#dp{
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+#menu_items{
+    
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.763);
+    color: black;
+}
+
+#menu_items button{
+    margin: 20px 10px;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+#menu_div{
+    width: 70%;
+    height: 100vh;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+#menu_div span{
+    margin: 5px;
+}
+
+#academics{
+    margin-top: 70px;
+}
+
+
+#topt{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 25px 0px 0 70px;
+}
+
+#top{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Calibri';
+    color: rgb(0, 0, 0);
+    padding: 10px 0 15px 50px;
+    //margin: 25px 0 0 50px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.intro{
+    text-align: center;
+    margin: 20px;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Calibri';
+    font-weight: bold;
+}
+
+#intro_txt{
+    text-align: center; 
+    color: #2e2e2e;
+    font-size: 13px;
+    font-family: 'Calibri Light';
+}
+
+.faculty img{
+    width: 230px;
+    height: 160px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.faculty_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.faculty{
+    width: 100%;
+    margin: 10px;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#fvm{
+    padding: 10px 7px;
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+    font-family: 'Calibri Light';
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#dtls{
+    font-size: 15px;
+    font-family: 'Calibri Light';
+    display: flex;
+    flex-direction: column;
+}

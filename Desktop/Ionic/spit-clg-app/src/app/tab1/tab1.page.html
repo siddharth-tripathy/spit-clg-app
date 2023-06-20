@@ -1,0 +1,66 @@
+<ion-content [fullscreen]="true">
+  <!-- <img id="menu" src="https://cdn.iconscout.com/icon/free/png-256/free-menu-bar-lines-option-list-hamburger-web-2-2871.png" alt="">  -->
+  <img id="menu" (click)="onButtonMClick()" src="assets/images/menu.png" alt=""> 
+  <div id="menu_items" *ngIf="buttonMClicked" type="text" value="">
+    <div id="menu_div">
+      <img id="dp" src="assets/images/profile_dp.png" alt="">
+      <span>Siddharth Santosh Tripathy</span>
+      <span>UCID: 2022510067</span><br><br>
+      <span (click)="profile()">Profile</span>
+      <span (click)="score()">Performance</span>
+      <span (click)="academics()">Time Table</span>
+      <span (click)="logout()">Faculty</span>
+    </div>
+    <button (click)="onButtonMClick()">X</button>
+  </div>
+  <div id="first">
+    <div id="first_i">
+      <img id="clg_logo" src="https://mca.spit.ac.in/wp-content/uploads/2022/12/cropped-logo-removebg-preview-1.png" alt="">
+      <span>SARDAR PATEL INSTITUTE OF TECHNOLOGY</span>
+    </div>
+  </div>
+
+  <div  class="txt"  id="intro3">
+    <span id="wlc1">
+      Welcome to MCA Department of Sardar Patel Institute of Technology<br>
+      <img id="clg_logo" src="https://images.collegedunia.com/public/college_data/images/logos/16336900566237748820344441900178615267475362148777984n.png" alt="">
+      <div id="socialLinks">
+        <a href="https://www.facebook.com/SPITCOLLEGE/" class="btn btn-primary">
+        <img id="sociol_logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="">
+        </a>
+
+        <a href="https://twitter.com/bvbspit" class="btn btn-primary">
+        <img id="sociol_logo" src="https://img.freepik.com/free-icon/twitter_318-674515.jpg" alt="">
+        </a>
+        
+        <a href="https://www.spit.ac.in/" class="btn btn-primary">
+        <img id="sociol_logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png" alt="">
+        </a>
+        
+        <a href="https://www.linkedin.com/school/bhartiya-vidya-bhavans-sardar-patel-institute-of-technology-munshi-nagar-andheri-mumbai/" class="btn btn-primary">
+        <img id="sociol_logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="">
+        </a>
+      </div>
+    </span>
+    <span id="wlc2">
+
+  <!-- Right from it’s first year in 2009, S.P.I.T. has been one of the sought college by students for MCA and is renown for its ongoing courses. Even though starting in year 2009 it has managed to excel quickly and with the highest cutoff this year it has shown a growth among the students all over. -->
+    </span>
+  </div>
+
+  <div id="courses">
+    Your Courses
+
+    <div id="srolle">
+      <div class="scrolling-wrapper">      
+        <img (click)="openUrlpa()" src="assets/images/pa.png" alt="">
+        <img (click)="openUrlml()" src="assets/images/ml.png" alt="">
+        <img (click)="openUrlmp()" src="assets/images/mp.png" alt="">
+        <img (click)="openUrljp()" src="assets/images/jp.png" alt="">
+        <img (click)="openUrldaa()" src="assets/images/daa.png" alt="">
+        <!-- <img src="https://www.itprotoday.com/sites/itprotoday.com/files/java-logo_0.jpg" alt=""> -->
+      </div>
+    </div>
+
+  </div>
+</ion-content>

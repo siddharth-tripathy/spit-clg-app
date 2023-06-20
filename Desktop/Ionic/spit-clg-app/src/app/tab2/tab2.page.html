@@ -1,0 +1,55 @@
+<ion-content>
+    <img id="menu" (click)="onButtonMClick()" src="assets/images/menu_b.png" alt=""> 
+  <div id="menu_items" *ngIf="buttonMClicked" type="text" value="">
+    <div id="menu_div">
+      <img id="dp" src="https://cdn-icons-png.flaticon.com/512/1250/1250689.png" alt="">
+      <span>Siddharth Santosh Tripathy</span>
+      <span>UID: 2022510067</span><br><br>
+      <span>Profile</span>
+      <span (click)="academics()">Time Table</span>
+      <span>Academic Calendar</span>
+      <span>Log Out</span>
+    </div>
+    <button (click)="onButtonMClick()">X</button>
+  </div>
+  <div id="topt">
+    <div id="top">
+      <span>Events</span>
+    </div>
+  </div>
+  
+  <div class="faculty_container">
+    <div class="faculty">
+      <img src="https://firebasestorage.googleapis.com/v0/b/oculus-2023.appspot.com/o/events%2Fposters%2Fhackathon-card.png?alt=media&token=fbfec1f1-5202-4e60-a15f-2fcb47c5bc29" alt="">
+      <span>S.P.I.T Hackathon</span>
+      <button id="fvm" ion-button full round (click)="Raundale()">View More</button>
+      <ion-input id="dtls" *ngIf="buttonRClicked" type="text" value="">
+        Following tradition, CSI-SPIT is conducting the annual 24-hour "SPIT Hackathon" in June 2023. This year, we are going back to organizing the hackathon completely in Offline Mode. With a great team and skilled panel of judges, this hackathon will be an ideal platform to put student's knowledge to use and something.
+      </ion-input>
+    </div>
+    
+    <div class="faculty">
+      <img src="https://firebasestorage.googleapis.com/v0/b/oculus-2023.appspot.com/o/events%2Fposters%2Fvsm%20card(textless).png?alt=media&token=c5916be1-c35c-4052-9392-32b58786672c" alt="">
+      <span>Virtual Stock Market</span>
+      <button id="fvm" ion-button full round (click)="Karande()">View More</button>
+      <ion-input id="dtls" *ngIf="buttonAKClicked" type="text" value="">
+        Are you ready to test your investment skills and financial acumen in a virtual stock market simulation event? Join us as we bring you an exciting opportunity to experience the thrill of trading in the stock market without risking your real money. Virtual stock market is all about u showcasing your trading skills and have real time experience of trading and handling all the ups and down's among your friends. VSM is more than just a game. It's a chance to understand how the stock market works and how to make informed decisions about investments.
+      </ion-input>
+    </div>
+    <div class="faculty">
+      <img src="https://firebasestorage.googleapis.com/v0/b/oculus-2023.appspot.com/o/events%2Fposters%2FOculus_Sargam%20Card.png?alt=media&token=21e571f4-d7b3-4c4d-bfc1-539eac97ac7c" alt="">
+      <span>Sargam</span>
+      <button id="fvm" ion-button full round (click)="Kanakia()">View More</button>
+      <ion-input id="dtls" *ngIf="buttonHKClicked" type="text" value="">
+        Battle the enemy in a simulated field with barriers and hideouts, the mask and safety jackets save you from the plastic bullets. The bullets are plastic encapsulations filled with edible oil with edible color dye. Use your strategic thinking, teamwork, and quick reflexes to outmaneuver and outshoot the opposing team. Enjoy this exciting and immersive experience that combines physical activity, planning, and teamwork, making it a thrilling and memorable activity.
+      </ion-input>
+    </div>
+
+    <div class="faculty">
+      <img src="https://firebasestorage.googleapis.com/v0/b/oculus-2023.appspot.com/o/events%2Fposters%2Fcarnival_Card.png?alt=media&token=49e974db-3303-4373-b151-196ca6239490" alt="">
+      <span>Carnival</span>
+      <button id="fvm" ion-button full round (click)="Thakur()">View More</button>
+      <ion-input id="dtls" *ngIf="buttonTClicked" type="text" value="">
+        Where fashion enthusiasts all over the country congregate to compete for the greatest designs. Step into the spotlight and showcase your unique designs at our highly esteemed fashion show. This is your opportunity to express yourself and make your mark upon the fashion world.
+      </ion-input>
+    </div>
